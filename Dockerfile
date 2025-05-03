@@ -24,7 +24,7 @@ FROM eclipse-temurin:17-jre
 WORKDIR /app
 
 # Copy the jar file from the build stage
-COPY --from=build /app/build/libs/*.jar app.jar
+COPY --from=build /app/build/libs/ThemisSpringLearning-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the port the app runs on
 EXPOSE 8080

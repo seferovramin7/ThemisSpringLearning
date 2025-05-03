@@ -5,7 +5,7 @@ services:
     github:
       branch: main
       deploy_on_push: true
-      repo: yourusername/ThemisSpringLearning # Replace with your GitHub repo
+      repo: seferovramin7/ThemisSpringLearning # Replace with your GitHub repo
     dockerfile_path: Dockerfile
     http_port: 8080
     instance_count: 1
