@@ -19,6 +19,7 @@ public class UserController {
 
     @GetMapping("/user")
     public UserEntity getUserService(@RequestParam String name) {
+        System.out.println(name);
         return userService.saveUser(name);
     }
 }
